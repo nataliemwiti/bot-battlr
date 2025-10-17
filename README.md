@@ -3,7 +3,7 @@
 Welcome to Bot Battlr — the one and only spot in the known universe where you can build your very own Bot Army!
 This React web app lets you browse through a list of bots, view their details, enlist them into your army, and even discharge them permanently from service.
 
-## ## 🚀 Project Overview
+## 🚀 Project Overview
 
 This project was created to practice and demonstrate key React concepts such as:
 
