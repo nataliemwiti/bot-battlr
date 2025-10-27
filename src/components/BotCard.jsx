@@ -5,19 +5,20 @@ function BotCard({ bot, handleClick, handleDelete }) {
     <div className="bot-card" onClick={handleClick}>
       <img src={bot.avatar_url} alt={bot.name} className="bot-img" />
       <h3>{bot.name}</h3>
-      <p>{bot.bot_class}</p>
+      <p>Class: {bot.bot_class}</p>
       <p>
         Health: {bot.health} | Damage: {bot.damage} | Armor: {bot.armor}
       </p>
+
       {handleDelete && (
         <button
+          className="delete-btn"
           onClick={(e) => {
             e.stopPropagation(); 
             handleDelete(bot);
           }}
-          className="delete-btn"
         >
-          X
+          ❌
         </button>
       )}
     </div>
